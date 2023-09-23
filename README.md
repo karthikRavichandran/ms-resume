@@ -1,2 +1,2 @@
-# ms-resume
-Here I will keep adding my development in the resume in Latex 
+# Karthik Ravichandran MS-resume
+Here I will keep adding my development and achievements in the resume in Latex format
