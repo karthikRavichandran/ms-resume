@@ -1,0 +1,267 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Karthik Ravichandran} \\ \vspace{1pt}
+    162 Brittany Manor Apt B, Amherst, MA, USA \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 551-338-2570 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tkgravikarthik@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/username}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/username}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Massachusetts  Amherst}{Sep. 2023 -- May 2025}
+      {Master of Science in Computer Science}{Amherst, Massachusetts, USA}
+  
+  \resumeSubheading
+  {Vellore Institute of Technology Vellore}{June 2014 -- Sep. 2018}
+  {Bachelor of Technology in Electronics and Communication Engineering}{Vellore, Tamil Nadu, India}
+
+  \resumeSubHeadingListEnd
+  
+
+%------RELEVANT Skills-------
+\section{Relevant Skills}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small NLP
+                \item Fewshot and LLM
+                \item Data Science
+                \item Python
+                \item Statistics
+                \item Software Development 
+                \item C++
+                \item Linux
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+%Data Scientist IN 3, Walmart Global Technology, Bengaluru
+    \resumeSubheading
+      {Walmart Global Technology}{Dec. 2021 -- August 2023}
+      {Data Scientist IN 3}{Bengaluru, Karnataka, India}
+      \resumeItemListStart
+
+        \resumeItem{Supported the development of an NLP suite that generated Walmart around 11M USD last FY.}
+        \resumeItem{Developed an AI framework (with UI and sophisticated data flow) that makes non-technical business partners use various trained NLP models and other data solutions.}
+        \resumeItem{Developed a framework (MR-TOPIC) for topic analysis that’s not only unique but helps Walmart's business heavily - it’s been considered for filing patents.}
+        \resumeItem{Key contributor  of  customer experience NLP research that focuses on Meta-Learning and few-shot mechanism - Mainly working on Table to Text, Summarization, and Question-Answering}
+        \resumeItem{Developed  Seller Centric Classification model for Marketplace-Seller feedback analysis .}
+        \resumeItem{Mentored 4 Interns and 1 Full-time Walmart Associate in the Data Science team}
+        \resumeItem{Productionized 7 international business workflow and developed a robust fallback approach using Airflow. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Omega Healthcare Management Service Pvt Ltd.}{Aug. 2020 -- Dec. 2021}
+      {Software Engineer--Data Science}{Bengaluru, Karnataka, India}
+      \resumeItemListStart
+        \resumeItem{Built a custom deep learning architecture to classify ICD-10 codes in medical charts (10k classes)}
+        \resumeItem{Used Python, PyTorch, and other data science libraries to train, test, and productize NLP  models.}
+        \resumeItem{Created a method that helps the system infer patterns from old data and use newer data to train a DL model- (self-supervised learning)}
+        \resumeItem{Modified Fasttext, CAML, BioNER, and SGM for Multi-label Classification and entity recognition.}
+        \resumeItem{Created robust Data pipeline to flow data from DB to OCR, parsing and prediction engine in OSCAR product}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Tricog Health India Pvt Ltd.}{Nov. 2018 -- May 2020}
+      {Data Scientist}{Bengaluru, Karnataka, India}
+      \resumeItemListStart
+        \resumeItem{Development of AI Algorithm in C++ and Python  to classify and identify cardiovascular criticalities using 12-lead ECG data}
+        \resumeItem{Improved the T-wave detection using a feedback mechanism, and the detection of Non-specific T-wave abnormality.}
+        \resumeItem{Developed a classifier for T-wave-based diseases using a combination of LSTM and CNN2D}
+        \resumeItem{Enhanced beat classification model using unannotated data by implementing Semi-supervised learning and active learning pipelines}
+        \resumeItem{Fine-tuning AI models to detect Ischemic conditions like LT, AT, IT, and other T-wave dependent conditions like supraventricular tachycardia in ECG records}
+        \resumeItem{Event and Activity analysis of 25 doctors from Tricog hub using a viewer tracking system which includes: \textbf{a.} Building a recommendation engine for diverting ECGs to respective doctors, \textbf{b.} Central tendency analysis of diagnosis time for normal, abnormal, and critical ECGs with respect to doctors}
+
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Publications and Patent $|$ \emph{Citations: 60, h-index: 4, i10-index: 3}}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Publications} $|$ \emph{Machine Learning, Computer Vision, Signal Processing, Healthcare}}{2018 -- Present}
+          \resumeItemListStart
+            \resumeItem{\textbf{Karthik, R.} et al. “Implementation of Neural Network and feature extraction to classify ECG signals.” ArXiv abs/1802.06288 (2018): n. Pag. / Lecture Notes in Electrical Engineering, vol 521. Springer, Singapore.}
+
+            \resumeItem{\textbf{Karthik, R.}. et al. “Automatic Phone Slip Detection System” Lecture Notes in Electrical Engineering, vol 521. Springer, Singapore.}
+            
+            \resumeItem{\textbf{Karthik, R.}. et al. "Radial Based Analysis of GRNN in Non-Textured Image Inpainting," 2018 3rd IEEE International Conference on Recent Trends in Electronics, Information and Communication Technology (RTEICT), 2018, pp. 1234-1238, doi: 10.1109/RTEICT42901.2018.9012596.}
+
+            \resumeItem{\textbf{R. Karthik}, K. Tejas, C. Swathi, K. Ashok and M. R. Kumar, "High capacity, secure (n, n/8) multi secret image sharing scheme with security key," 2017 International Conference on Intelligent Computing and Control (I2C2), 2017, pp. 1-6, doi: 10.1109/I2C2.2017.8321797.}
+            
+            \resumeItem{R. Charan, A. Manisha, \textbf{R. Karthik} and M. R. Kumar, "A text-independent speaker verification model: A comparative analysis," 2017 International Conference on Intelligent Computing and Control (I2C2), 2017, pp. 1-6, doi: 10.1109/I2C2.2017.8321794.}
+
+            \resumeItem{\textbf{R., Karthik}, et al. "Classification of Sleep Apnea Using ECG Signals With Machine Learning Techniques." Advancing the Investigation and Treatment of Sleep Disorders Using AI, edited by M. Rajesh Kumar, et al., IGI Global, 2021, pp. 184-203.}
+
+            \resumeItem{Tutika, C.S., Vallapaneni, C., \textbf{Karthik, R.}, Bharath, K.P., Ruban, N., and Muthu, R.K. (2018). Cubic Spline Interpolation Segmenting over Conventional Segmentation Procedures: Application and Advantages. arXiv: Image and Video Processing.}
+
+            \resumeItem{Jain, M., Narayan, S., Balaji, P., BharathK., P., Bhowmick, A., \textbf{Karthik, R.}, and Muthu, R.K. (2020). Speech Emotion Recognition using Support Vector Machine. ArXiv, abs/2002.07590.}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Patent processing} $|$ \emph{Computer Vision, and Natural Language Processing}}{2018 -- Present}
+          \resumeItemListStart
+            \resumeItem{Tolgahan Cakaloglu, \textbf{Karthik Ravichandran}. “MR-TOPIC: Multi-Resolution Topic modeling with Primary and Secondry Algorithm Selector”. Approved work for US Patenting by Walmart Global Tech.--\textbf{US Patent Filing is in process.}} 
+            \resumeItem{\textbf{Karthik Ravichandran}, Rajesh Muthu. "Chess Piece Vision- An Image in-painting technique" (tried for Patent application in VIT during my final year of B.Tech)}
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, SQL, Matlab, R} \\
+     \textbf{Developer Tools}{: Google Cloud Platform, AWS, Jupyter Notebook} \\
+     \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, Pytorch, NLP, Airflow, CICD} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Activities, Certifications, and Awards}
+
+            \resumeItemListStart
+                \resumeItem{\textbf{Bravo Award} by Walmart Global Tech for building a Suite for customer experience text analytics and impacting the business in 10s of Millions).}
+                \resumeItem{Certificate Of Merit: \textbf{First Position} in Robostacle; Conducted during the international knowledge carnival -GraVITas}
+                \resumeItem{Part of a technical club named RoboVITics- led a project in control systems that uses machine learning techniques to determine  PID constants(kp, ki, and kd) and implemented the concept in an inverted pendulum model called segway.}
+            \resumeItemListEnd
+        
+
+
+\end{document}
